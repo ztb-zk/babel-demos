@@ -1,11 +1,9 @@
-import 'babel-polyfill';
+// demo 1
+function f1() {
+  let n = 5;
+  if (true) {
+    let n = 10;
+  }
+  console.log(n); // 5
+}
 
-console.log(Array.from('aaa'));
-
-congsole.log('=====');
-
-const sum = (a,b) =>a+b;
-
-let x = sum(1,2);
-
-console.log(x);
